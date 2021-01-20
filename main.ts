@@ -54,9 +54,6 @@ game.onUpdateInterval(2000, function () {
         isHealthLocked = 0
     }
 })
-forever(function () {
-	
-})
 game.onUpdateInterval(3500, function () {
     if (Coin.x >= 300) {
         Coin.setVelocity(-150, -53)
